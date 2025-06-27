@@ -1,0 +1,69 @@
+Create a responsive law firm website for "Luật sư Nguyễn Tiến Dũng" using ReactJS + Tailwind CSS.
+ Layout: 12-column grid, max width 1200px, gutters 24px, padding 16–32px depending on screen size.
+ Color theme: navy (#1B2A4E), white, accent red or deep blue for CTA. Font: Lora/Bitter for title, Inter for body.
+
+ 1. Header (height: 80px):
+    - Left: Logo text "Luật sư Nguyễn Tiến Dũng", serif or professional font
+    - Right: Menu ["Trang chủ", "Giới thiệu", "Dịch vụ", "Tin tức", "Liên hệ"], and a "Gọi ngay" CTA button
+    - If mobile: show Zalo or phone icon 📞
+
+ 2. Hero Section (height: 600–720px):
+    - Background: blurred image + navy gradient overlay
+    - Title: “Luật sư Nguyễn Tiến Dũng – Bảo vệ quyền lợi pháp lý của bạn”
+    - Subtitle: “15+ năm kinh nghiệm trong hình sự, dân sự, đất đai, hôn nhân…”
+    - Two buttons: “Đặt lịch tư vấn” (primary) + “Xem dịch vụ” (secondary outline)
+
+ 3. Giới thiệu (2-column layout):
+    - Left: Portrait or courtroom image
+    - Right: Text intro, highlight "15 năm kinh nghiệm"
+    - Light background (#F8F9FA), fade-in animation
+
+ 4. Dịch vụ (3-column card grid):
+    - Each card: icon (⚖️ 🏠 👪 💼), service name, short desc, “Xem chi tiết” button
+    - Hover effect: change background or soft shadow
+
+ 5. Lý do chọn luật sư:
+    - Background: gradient or light navy
+    - 4 benefits with ✅ icon + short text
+
+ 6. Testimonials:
+    - Slider or 3 boxes with quotes ❝ ❞, italic font, and client avatars
+
+ 7. Blog/News:
+    - Grid of 3 recent posts: thumbnail, title, short desc, “Xem thêm” link
+
+ 8. Contact/Booking:
+    - Form: Họ tên, Số điện thoại, Dịch vụ (dropdown), Nội dung
+    - Right: embedded Google Maps or office image
+    - CTA: “Gửi thông tin”
+
+ 9. Footer:
+    - Background: navy #1B2A4E, white text
+    - 3 columns: Logo + short intro | Menu links | Contact + social icons
+    - Bottom: Copyright © Luật sư Nguyễn Tiến Dũng
+
+ Use Tailwind's responsive utilities to ensure mobile friendliness. Grid and flex layout preferred.
+ Use components for each section (e.g., Header.tsx, Hero.tsx, Services.tsx, Footer.tsx).
+ Include a simple router if needed for navigation scroll or subpages.
+
+---
+
+# Refactor Prompt: Modern, Clean, Animated Law Firm Website
+
+Refactor the current law firm website to achieve a modern, visually appealing, and clear design. The current components are too simple and lack animation or visual interest. The new design should:
+
+- Use a clean, modern layout with clear visual hierarchy and generous spacing.
+- All buttons must be highly visible, with strong color contrast and modern rounded styles.
+- Add subtle but elegant animations (e.g., fade-in, slide-up, hover transitions) to sections, cards, and buttons for a lively, professional feel.
+- Use drop shadows, gradients, and card layouts to create depth and separation between sections.
+- Typography: Titles use Lora/Bitter, body uses Inter. Font sizes and weights should be visually balanced.
+- Header: sticky, with a modern shadow, clear menu, and a standout CTA button. On mobile, use a hamburger menu with smooth slide-in animation.
+- Hero: Large, bold title and subtitle, with animated text or background. Buttons should animate on hover (scale, color, shadow).
+- Service cards: Animated on hover (lift, shadow, icon color change). Use icons in colored circles for visual interest.
+- Testimonials: Use a slider or animated fade-in for each quote. Avatars in circles, italic font for quotes.
+- Blog/news: Card grid with image hover zoom and shadow. Titles and links animate on hover.
+- Contact: Form fields animate on focus, button with ripple or color transition. Map or image with subtle zoom/animation.
+- Footer: Modern, clean, with clear columns and social icons. Add hover effects to links and icons.
+- Ensure all sections are responsive and visually appealing on all devices.
+
+Use Tailwind CSS for all styling and animation utilities. Prioritize clarity, contrast, and a professional, trustworthy look.
