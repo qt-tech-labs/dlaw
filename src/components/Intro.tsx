@@ -5,7 +5,7 @@ export default function Intro() {
         <section id="gioi-thieu" className="hover:shadow-2xl w-full bg-light py-16 animate-fade-in">
             <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-8 lg:px-0 items-center">
                 <div className="flex justify-center">
-                    <img src={`${BASE_URL}/avatar.png`} alt="Luật sư Nguyễn Tiến Dũng" className="rounded-2xl shadow-xl w-96 h-96 object-cover transition-transform duration-300 hover:scale-105" />
+                    <img src={`${BASE_URL}avatar.png`} alt="Luật sư Nguyễn Tiến Dũng" className="rounded-2xl shadow-xl w-96 h-96 object-cover transition-transform duration-300 hover:scale-105" />
                 </div>
                 <div>
                     <h2 className="font-serif text-3xl font-bold text-navy mb-4 animate-slide-up">Giới thiệu</h2>

@@ -2,22 +2,25 @@ import { BASE_URL } from "./Header";
 
 const posts = [
     {
-        title: 'Những lưu ý khi giải quyết tranh chấp đất đai',
-        desc: 'Các bước pháp lý và kinh nghiệm thực tiễn khi xử lý tranh chấp đất đai.',
-        img: `${BASE_URL}/datdai.jpg`,
-        href: '#',
+        id: "datdai",
+        title: "Những lưu ý khi giải quyết tranh chấp đất đai",
+        desc: "Các bước pháp lý và kinh nghiệm thực tiễn khi xử lý tranh chấp đất đai.",
+        img: `${BASE_URL}datdai.jpg`,
+        href: "/blog/datdai",
     },
     {
-        title: 'Quyền lợi của bạn trong vụ án hình sự',
-        desc: 'Tìm hiểu quyền và nghĩa vụ của bị can, bị cáo trong vụ án hình sự.',
-        img: `${BASE_URL}/hs.jpeg`,
-        href: '#',
+        id: "hs",
+        title: "Quyền lợi của bạn trong vụ án hình sự",
+        desc: "Tìm hiểu quyền và nghĩa vụ của bị can, bị cáo trong vụ án hình sự.",
+        img: `${BASE_URL}hs.jpeg`,
+        href: "/blog/hs",
     },
     {
-        title: 'Thủ tục ly hôn nhanh và hợp pháp',
-        desc: 'Hướng dẫn các bước ly hôn đúng luật, bảo vệ quyền lợi cá nhân.',
-        img: `${BASE_URL}/lyhon.jpg`,
-        href: '#',
+        id: "lyhon",
+        title: "Thủ tục ly hôn nhanh và hợp pháp",
+        desc: "Hướng dẫn các bước ly hôn đúng luật, bảo vệ quyền lợi cá nhân.",
+        img: `${BASE_URL}lyhon.jpg`,
+        href: "/blog/lyhon",
     },
 ];
 

@@ -9,7 +9,7 @@ export default function Services() {
     return (
         <section id="dich-vu" className="w-full hover:shadow-2xl bg-amber-500 transition-all duration-300 py-16 bg-light animate-fade-in">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-0">
-                <h2 className="font-serif text-3xl font-bold text-navy mb-10 text-center animate-slide-up">Dịch vụ</h2>
+                <h2 className="font-serif text-3xl font-bold text-amber-50 mb-10 text-center animate-slide-up">Dịch vụ</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
                     {services.map((s) => (
                         <div key={s.name} className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 flex flex-col items-center text-center group animate-fade-in">
