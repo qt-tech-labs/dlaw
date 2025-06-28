@@ -10,13 +10,14 @@ import Contact from './components/Contact';
 import BlogDetail from "./components/BlogDetail";
 import { FaFacebook } from "react-icons/fa";
 import ZaloIcon from "/zalo.svg";
+import { BASE_URL } from "./components/Header";
 
 function App() {
   return (
     <Router>
       <div className="relative min-h-screen font-sans">
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path={BASE_URL} element={<Layout />}>
             <Route index element={
               <div className="relative z-10">
                 <Hero />
