@@ -1,10 +1,8 @@
-import React from 'react';
-
 export default function Hero() {
     return (
         <section className="relative flex items-center justify-center min-h-[600px] max-h-[720px] w-full pt-20 overflow-hidden animate-fade-in">
             <div className="absolute inset-0 z-0">
-                <img src="/public/hero-bg.jpg" alt="Law background" className="w-full h-full object-cover blur-sm scale-105" />
+                <img src="/public/hero.jpg" alt="Law background" className="w-full h-full object-cover blur-sm scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-b from-navy/90 to-accent/80" />
             </div>
             <div className="relative z-10 max-w-2xl mx-auto text-center text-light px-4">

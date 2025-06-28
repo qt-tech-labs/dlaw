@@ -1,4 +1,3 @@
-import React from 'react';
 
 export default function Contact() {
     return (
@@ -19,7 +18,7 @@ export default function Contact() {
                     <button type="submit" className="px-6 py-3 rounded-full bg-blue-400 text-navy font-semibold shadow-lg hover:bg-accent hover:text-light transition-all duration-200 focus:ring-2 focus:ring-blue-400 focus:outline-none">Gửi thông tin</button>
                 </form>
                 <div className="flex justify-center items-center animate-fade-in">
-                    <img src="/public/office.jpg" alt="Văn phòng luật sư" className="rounded-2xl shadow-xl w-full h-80 object-cover transition-transform duration-300 hover:scale-105" />
+                    <img src="/avatar.png" alt="Văn phòng luật sư" className="rounded-2xl shadow-xl w-full h-80 object-cover transition-transform duration-300 hover:scale-105" />
                 </div>
             </div>
         </section>

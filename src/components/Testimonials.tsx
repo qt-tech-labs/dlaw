@@ -1,20 +1,19 @@
-import React from 'react';
 
 const testimonials = [
     {
         quote: 'Luật sư Dũng rất tận tâm và chuyên nghiệp, giúp tôi giải quyết vụ việc nhanh chóng.',
-        name: 'Nguyễn Văn A',
-        avatar: '/public/client1.jpg',
+        name: 'Nguyễn Văn Trung',
+        avatar: '/test1.webp',
     },
     {
         quote: 'Tôi rất hài lòng với dịch vụ tư vấn pháp lý, rõ ràng và hiệu quả.',
-        name: 'Trần Thị B',
-        avatar: '/public/client2.jpg',
+        name: 'Trần Thị Hoa',
+        avatar: '/test2.jpg',
     },
     {
         quote: 'Luật sư hỗ trợ tận nơi, giải đáp mọi thắc mắc của tôi.',
-        name: 'Phạm Văn C',
-        avatar: '/public/client3.jpg',
+        name: 'Phạm Văn Thanh',
+        avatar: '/test3.webp',
     },
 ];
 

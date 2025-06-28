@@ -1,4 +1,5 @@
-import React from 'react';
+import { FaFacebook } from "react-icons/fa";
+import ZaloIcon from "/zalo.svg";
 
 export default function Footer() {
     return (
@@ -20,10 +21,10 @@ export default function Footer() {
                 </div>
                 <div>
                     <div className="font-semibold mb-2">Liên hệ</div>
-                    <p>ĐT: <a href="tel:0123456789" className="underline hover:text-blue-400 transition-colors">0123 456 789</a></p>
+                    <p>ĐT: <a href="tel:0378513855" className="underline hover:text-blue-400 transition-colors">0378 513 855</a></p>
                     <div className="flex gap-3 mt-2">
-                        <a href="#" className="text-xl hover:text-blue-400 transition-colors" aria-label="Facebook">🔵</a>
-                        <a href="#" className="text-xl hover:text-blue-400 transition-colors" aria-label="Zalo">💬</a>
+                        <a href="https://www.facebook.com/BildungHumboldt" className="text-xl text-blue-400 transition-colors" aria-label="Facebook"> <FaFacebook /> </a>
+                        <a href="https://zalo.me/0378513855" className="text-xl hover:text-blue-400 transition-colors" aria-label="Zalo"> <img src={ZaloIcon} alt="Zalo" className="w-6 h-6" /> </a>
                     </div>
                 </div>
             </div>
