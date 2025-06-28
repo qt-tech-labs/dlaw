@@ -29,7 +29,7 @@ function App() {
                 <Contact />
               </div>
             } />
-            <Route path="blog/:id" element={<BlogDetail />} />
+            <Route path={`${BASE_URL}blog/:id`} element={<BlogDetail />} />
           </Route>
         </Routes>
         {/* Fixed action buttons */}
