@@ -1,3 +1,4 @@
+export const BASE_URL = import.meta.env.BASE_URL;
 
 const menu = [
     { label: 'Trang chủ', href: '#' },

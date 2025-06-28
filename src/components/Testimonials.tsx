@@ -1,19 +1,20 @@
+import { BASE_URL } from "./Header";
 
 const testimonials = [
     {
         quote: 'Luật sư Dũng rất tận tâm và chuyên nghiệp, giúp tôi giải quyết vụ việc nhanh chóng.',
         name: 'Nguyễn Văn Trung',
-        avatar: '/test1.webp',
+        avatar: `${BASE_URL}/test1.webp`,
     },
     {
         quote: 'Tôi rất hài lòng với dịch vụ tư vấn pháp lý, rõ ràng và hiệu quả.',
         name: 'Trần Thị Hoa',
-        avatar: '/test2.jpg',
+        avatar: `${BASE_URL}/test2.jpg`,
     },
     {
         quote: 'Luật sư hỗ trợ tận nơi, giải đáp mọi thắc mắc của tôi.',
         name: 'Phạm Văn Thanh',
-        avatar: '/test3.webp',
+        avatar: `${BASE_URL}/test3.webp`,
     },
 ];
 

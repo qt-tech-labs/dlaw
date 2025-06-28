@@ -1,9 +1,12 @@
+import { FaComments } from "react-icons/fa";
+import { FaHeart, FaPerson } from "react-icons/fa6";
+import { FcDataProtection } from "react-icons/fc";
 
 const reasons = [
-    { title: 'Tận tâm & chuyên nghiệp', icon: "🐛" },
-    { title: '15+ năm kinh nghiệm', icon: "🐛" },
-    { title: 'Bảo mật thông tin tuyệt đối', icon: "🐛" },
-    { title: 'Tư vấn tận nơi, hỗ trợ online', icon: "🐛" }
+    { title: 'Tận tâm & chuyên nghiệp', icon: <FaHeart color="red" /> },
+    { title: '15+ năm kinh nghiệm', icon: <FaPerson color="blue" /> },
+    { title: 'Bảo mật thông tin tuyệt đối', icon: <FcDataProtection color="white" /> },
+    { title: 'Tư vấn tận nơi, hỗ trợ online', icon: <FaComments color="white" /> }
 ];
 
 export default function WhyChoose() {
